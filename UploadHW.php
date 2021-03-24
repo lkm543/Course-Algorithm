@@ -54,7 +54,7 @@ if ($_FILES["fileToUpload"]["error"] > 0){
 	    // use exec() because no results are returned
 	    $conn->exec($sql);
 		$_SESSION['Uploaded']='True';
-		header("Location: ../DS_AL/#Homework");
+		header("Location: ../Algorithm/#Homework");
 		die();
     }
 	catch(PDOException $e)

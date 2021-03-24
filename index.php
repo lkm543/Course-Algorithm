@@ -67,7 +67,7 @@ session_start();
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
           <?php
-          if ($_SESSION['Login']=='Al' or $_SESSION['Login']=='Admin'){
+          if ($_SESSION['Login']=='AL' or $_SESSION['Login']=='Admin'){
             require_once("content.php");
           }
           else{
