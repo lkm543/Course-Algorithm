@@ -16,7 +16,7 @@ session_start();
 <!--<![endif]-->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>C/C++ 進階班：資料結構</title>
+    <title>C/C++ 進階班：演算法</title>
 
     <!-- easyhashtag -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -67,7 +67,7 @@ session_start();
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
           <?php
-          if ($_SESSION['Login']=='DSAL' or $_SESSION['Login']=='Admin'){
+          if ($_SESSION['Login']=='Al' or $_SESSION['Login']=='Admin'){
             require_once("content.php");
           }
           else{

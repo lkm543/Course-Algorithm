@@ -3,7 +3,7 @@
     <div class="logo"><h1><a href="index.php"> </a></h1></div>
     <div class="menu_nav">
       <div class="searchform">
-       <h1 style="font-family:Microsoft JhengHei;font-weight:bold;">台大資工訓練班 C++進階班：資料結構</h1>
+       <h1 style="font-family:Microsoft JhengHei;font-weight:bold;">台大資工訓練班 C++進階班：演算法</h1>
       </div>
       <div class="clr"></div>
       <ul class='etabs'>
@@ -12,7 +12,7 @@
         <li class='tab' data-tabid="Homework"><a href="#Homework">HomeWork</a></li>
         <li class='tab' data-tabid="Resources"><a href="#Resources">Resources</a></li>
         <li class='tab' data-tabid="Contact"><a href="#Contact">Contact Me</a></li>
-        <li><a href="/Course/DS_AL/Download/">Download</a></li>
+        <li><a href="/Algorithm/Download/">Download</a></li>
       </ul>
     </div>
     <div class="clr"></div>
